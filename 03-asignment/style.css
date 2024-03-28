@@ -1,0 +1,138 @@
+*{
+    background: #000;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    width: 120px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.green_menu{
+    display: flex;
+}
+
+.normal_menu{
+    display: flex;
+}
+
+.btn-style{
+    color: #3ded43; /* 버튼 */
+    border: 2px solid #3ded43; /* solid 실선 테두리 */
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 5px;
+    border-radius: 15px;
+}
+
+.btn-style:hover { /* 마우스가 요소 위에 올라가 있으면 선택됨*/
+    background-color: #3ded43;
+    color: black;
+  }
+
+.nav-menu{
+    width: 100px;
+    height: 20px;
+    border: 0;
+}
+
+.main{
+    display: flex;
+}
+
+#FAQ{
+    padding: 10px 10px 30px 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#FAQ_menu{
+    display: flex;
+}
+
+.question_menu{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    margin-right: 10px;
+    border: 0;
+    
+}
+
+.qna-btn-style-ex{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px 5px;
+    border: 0;
+}
+
+.qna-btn-style{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px 5px;
+    border: 0;
+}
+
+.qna-btn-style:hover { /* 마우스가 요소 위에 올라가 있으면 선택됨*/
+    background-color: white;
+    color: black;
+  }
+
+
+.qna-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.qna{
+    padding: 0 0 20px 0;
+    margin: 10px 10px 10px;
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+}
+
+.question{
+    padding: 30px 0 10px 10px;
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+}
+
+.answer{
+    padding: 10px 0 10px 30px;
+    color: rgb(169, 169, 169);
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+}
