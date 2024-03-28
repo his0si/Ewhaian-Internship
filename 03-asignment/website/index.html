@@ -20,18 +20,19 @@
                     <button class="nav-menu"> 지난 이화이언</a></button>
                     <button class="nav-menu"> 자주 묻는 질문</a></button>
                 </div>
+            </div>
         </nav>
     </header>
     <main>
         <div class="main-container">
-        <div id="FAQ">자주 묻는 질문</div>
-        <div id="FAQ_menu">
-            <button class="qna-btn-style-ex">운영진 지원 관련 질문</button>
-            <button class="qna-btn-style">운영진 활동 관련 질문</button>
-            <button class="qna-btn-style">기타</button>
-        </div>
-        <div class = "qna-container">
-            <div class="qna"><div class="question">Q. 운영진 모집에 있어 우대하는 학과가 있나요?</div>
+            <div id="FAQ">자주 묻는 질문</div>
+            <div id="FAQ_menu">
+                <button class="faq-btn" data-target="aboutRecruiting">운영진 지원 관련 질문</button>
+                <button class="faq-btn" data-target="aboutUs">운영진 활동 관련 질문</button>
+                <button class="faq-btn" data-target="etc">기타</button>
+            </div>
+            <div id="aboutRecruiting" class="qna-container">
+                <div class="qna"><div class="question">Q. 운영진 모집에 있어 우대하는 학과가 있나요?</div>
                 <div class="answer">아니요! 이화이언 운영진에는 다양한 전공의 벗들이 속해 있어, 이화이언을 사랑하는 마음과 열정으로 충분히 운영진 활동을 펼쳐나갈 수
                     있답니다!</div>
             </div>
@@ -44,10 +45,21 @@
             <div class="qna"><div class="question">Q. 팀과 관련된 활동이나 경력이 없는데 지원이 가능한가요?</div>
                 <div class="answer">네, 가능합니다! 수습 운영진으로 활동하는 기간 동안, 팀 수습 과제를 통해 팀 업무에 대한 이해도를 높일 수 있습니다.</div>
             </div>
-
+            </div>
+            <div id="aboutUs" class="qna-container">
+                <div class="qna">
+                    <div class="question">Q. 운영진 활동 관련 질문 </div>
+                    <div class="answer">답변</div>
+                </div>
+            </div>
+            <div id="etc" class="qna-container">
+                <div class="qna">
+                    <div class="question">Q. 기타</div>
+                    <div class="answer">답변</div>
+                </div>
+            </div>
         </div>
-    </div>
     </main>
 </body>
-
+<script src="./script.js"></script>
 </html>

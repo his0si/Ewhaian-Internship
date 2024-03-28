@@ -66,17 +66,8 @@
     
 }
 
-.qna-btn-style-ex{
-    background-color: white;
-    color: black;
-    font-size: 16px;
-    text-align: center;
-    border-radius: 15px;
-    margin: 10px 5px;
-    border: 0;
-}
-
-.qna-btn-style{
+.faq-btn {
+    background-color: black; 
     color: white;
     font-size: 16px;
     text-align: center;
@@ -85,11 +76,10 @@
     border: 0;
 }
 
-.qna-btn-style:hover { /* 마우스가 요소 위에 올라가 있으면 선택됨*/
-    background-color: white;
-    color: black;
-  }
-
+.faq-btn:hover {
+    background-color: white; 
+    color: black; 
+}
 
 .qna-container{
     display: flex;
